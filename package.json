@@ -1,0 +1,26 @@
+{
+  "name": "winston-airbrake",
+  "version": "0.0.1",
+  "description": "An airbrake transport for winston, inspired by the winston-graylog2 transport, powered by node-airbrake.",
+  "main": "./lib/winston-airbrake",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/shakefon/winston-airbrake.git"
+  },
+  "keywords": [
+    "logging",
+    "sysadmin",
+    "tools",
+    "winston",
+    "airbrake"
+  ],
+  "author": "Dave Stevens http://davestevens.us",
+  "license": "BSD",
+  "dependencies": {
+    "airbrake": "~0.2.9",
+    "winston": "~0.6.2"
+  }
+}
