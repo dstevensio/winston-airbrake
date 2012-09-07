@@ -1,10 +1,10 @@
 {
   "name": "winston-airbrake",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An airbrake transport for winston, inspired by the winston-graylog2 transport, powered by node-airbrake.",
   "main": "./lib/winston-airbrake",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vows test/*-test.js --spec"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,10 @@
   "author": "Dave Stevens http://davestevens.us",
   "license": "BSD",
   "dependencies": {
-    "airbrake": "~0.2.9",
-    "winston": "~0.6.2"
+    "airbrake": "~0.2.9"
+  },
+  "devDependencies": {
+    "winston": "~0.6.2",
+    "vows": "~0.6.4"
   }
 }
