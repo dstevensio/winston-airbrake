@@ -1,0 +1,144 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish', 'winston-airbrake' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose publish [ 'winston-airbrake' ]
+5 verbose cache add [ 'winston-airbrake', null ]
+6 verbose cache add name=undefined spec="winston-airbrake" args=["winston-airbrake",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'winston-airbrake',
+7 verbose parsed url   path: 'winston-airbrake',
+7 verbose parsed url   href: 'winston-airbrake' }
+8 silly lockFile d26e9ab0-winston-airbrake winston-airbrake
+9 verbose lock winston-airbrake /Users/dave/.npm/d26e9ab0-winston-airbrake.lock
+10 silly lockFile d26e9ab0-winston-airbrake winston-airbrake
+11 silly lockFile d26e9ab0-winston-airbrake winston-airbrake
+12 verbose addNamed [ 'winston-airbrake', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 1ee28f24-winston-airbrake winston-airbrake@
+15 verbose lock winston-airbrake@ /Users/dave/.npm/1ee28f24-winston-airbrake.lock
+16 silly addNameRange { name: 'winston-airbrake', range: '*', hasData: false }
+17 verbose request where is /winston-airbrake
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id c0dca3dcac7d3382
+20 verbose url raw /winston-airbrake
+21 verbose url resolving [ 'https://registry.npmjs.org/', './winston-airbrake' ]
+22 verbose url resolved https://registry.npmjs.org/winston-airbrake
+23 verbose request where is https://registry.npmjs.org/winston-airbrake
+24 info trying registry request attempt 1 at 10:31:27
+25 http GET https://registry.npmjs.org/winston-airbrake
+26 http 200 https://registry.npmjs.org/winston-airbrake
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Fri, 12 Dec 2014 18:31:31 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"F20D9549OP3LGBYWDI6BB9XEE"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '4317',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-lax1424-LAX',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1418409091.745859,VS0,VE43',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly addNameRange number 2 { name: 'winston-airbrake', range: '*', hasData: true }
+29 silly addNameRange versions [ 'winston-airbrake', [ '0.0.1', '0.0.2' ] ]
+30 verbose addNamed [ 'winston-airbrake', '0.0.2' ]
+31 verbose addNamed [ '0.0.2', '0.0.2' ]
+32 silly lockFile dd164a0c-winston-airbrake-0-0-2 winston-airbrake@0.0.2
+33 verbose lock winston-airbrake@0.0.2 /Users/dave/.npm/dd164a0c-winston-airbrake-0-0-2.lock
+34 silly lockFile 3fef9dc9-brake-winston-airbrake-0-0-2-tgz https://registry.npmjs.org/winston-airbrake/-/winston-airbrake-0.0.2.tgz
+35 verbose lock https://registry.npmjs.org/winston-airbrake/-/winston-airbrake-0.0.2.tgz /Users/dave/.npm/3fef9dc9-brake-winston-airbrake-0-0-2-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/winston-airbrake/-/winston-airbrake-0.0.2.tgz',
+36 verbose addRemoteTarball   'd7cd7f51d1bd183cb6a4b89b3740d84e567bea1b' ]
+37 info retry fetch attempt 1 at 10:31:31
+38 verbose fetch to= /var/folders/cl/kmvgpd6d7099010rpt1hxy3r0000gq/T/npm-7842-WV_EMXLo/registry.npmjs.org/winston-airbrake/-/winston-airbrake-0.0.2.tgz
+39 http GET https://registry.npmjs.org/winston-airbrake/-/winston-airbrake-0.0.2.tgz
+40 http 200 https://registry.npmjs.org/winston-airbrake/-/winston-airbrake-0.0.2.tgz
+41 silly lockFile 3fef9dc9-brake-winston-airbrake-0-0-2-tgz https://registry.npmjs.org/winston-airbrake/-/winston-airbrake-0.0.2.tgz
+42 silly lockFile 3fef9dc9-brake-winston-airbrake-0-0-2-tgz https://registry.npmjs.org/winston-airbrake/-/winston-airbrake-0.0.2.tgz
+43 silly lockFile dd164a0c-winston-airbrake-0-0-2 winston-airbrake@0.0.2
+44 silly lockFile dd164a0c-winston-airbrake-0-0-2 winston-airbrake@0.0.2
+45 silly lockFile 1ee28f24-winston-airbrake winston-airbrake@
+46 silly lockFile 1ee28f24-winston-airbrake winston-airbrake@
+47 silly publish { name: 'winston-airbrake',
+47 silly publish   version: '0.0.2',
+47 silly publish   description: 'An airbrake transport for winston, inspired by the winston-graylog2 transport, powered by node-airbrake.',
+47 silly publish   main: './lib/winston-airbrake',
+47 silly publish   scripts: { test: 'vows test/*-test.js --spec' },
+47 silly publish   repository:
+47 silly publish    { type: 'git',
+47 silly publish      url: 'http://github.com/shakefon/winston-airbrake.git' },
+47 silly publish   keywords: [ 'logging', 'sysadmin', 'tools', 'winston', 'airbrake' ],
+47 silly publish   author: { name: 'Dave Stevens http://davestevens.us' },
+47 silly publish   license: 'BSD',
+47 silly publish   dependencies: { airbrake: '~0.2.9' },
+47 silly publish   devDependencies: { winston: '~0.6.2', vows: '~0.6.4' },
+47 silly publish   readme: 'winston-airbrake\n================\n\nAn [airbrake][2] transport for [winston][0]. Inspired by [winston-graylog2][1] transport and powered by [node-airbrake][3].\n\n## Installation\nTested on node-0.8.x, requires npm.\n\n``` sh\n  $ npm install winston\n  $ npm install winston-airbrake\n```\n\n## Usage\n``` js\n  var winston = require(\'winston\');\n  winston.add(require(\'winston-airbrake\').Airbrake, options);\n\n```\n\nOptions:\n\n* __level:__ Level of messages this transport should log. (default: info)\n* __silent:__ Boolean flag indicating whether to suppress output. (default: false)\n\n* __apiKey:__ Valid Airbrake API Key (required)\n* __host:__ Your host, to be displayed in Airbrake. (default: require(\'os\').hostname())\n\n## Extended example of usage\n``` js\n  var winston = require(\'winston\');\n  var Airbrake = require(\'winston-airbrake\').Airbrake;\n  var http = require(\'http\');\n\n  var options = {\n    "apiKey":"YOUR_API_KEY",\n    "host":"YOUR_DOMAIN"\n  };\n  winston.add(Airbrake, options);\n\n  http.createServer(function(req, res) {\n    if (req.url === \'/\' && req.headers[\'X-Secret\'] !== \'my secret\') {\n      res.writeHead(403);\n      res.end(\'403 - Permission denied\');\n\n      winston.log(\'info\', \'403 - Permission denied\');\n\n    } else if (req.url === \'/breakstuff\') {\n      res.writeHead(500);\n      res.end(\'500 - Internal Server Error\');\n    \n      winston.log(\'error\', \'500 - Internal Server Error\');\n    }\n  }).listen(24755);\n```\n\n[0]: https://github.com/flatiron/winston\n[1]: https://github.com/flite/winston-graylog2\n[2]: https://airbrake.io\n[3]: https://github.com/felixge/node-airbrake\n',
+47 silly publish   _id: 'winston-airbrake@0.0.2',
+47 silly publish   dist:
+47 silly publish    { shasum: 'd7cd7f51d1bd183cb6a4b89b3740d84e567bea1b',
+47 silly publish      tarball: 'http://registry.npmjs.org/winston-airbrake/-/winston-airbrake-0.0.2.tgz' },
+47 silly publish   maintainers: [ { name: 'shakefon', email: 'davestevens84@gmail.com' } ],
+47 silly publish   directories: {},
+47 silly publish   _shasum: 'd7cd7f51d1bd183cb6a4b89b3740d84e567bea1b',
+47 silly publish   _from: 'winston-airbrake@',
+47 silly publish   _resolved: 'https://registry.npmjs.org/winston-airbrake/-/winston-airbrake-0.0.2.tgz' }
+48 info prepublish winston-airbrake@0.0.2
+49 verbose request where is /winston-airbrake
+50 verbose request registry https://registry.npmjs.org/
+51 verbose url raw /winston-airbrake
+52 verbose url resolving [ 'https://registry.npmjs.org/', './winston-airbrake' ]
+53 verbose url resolved https://registry.npmjs.org/winston-airbrake
+54 verbose request where is https://registry.npmjs.org/winston-airbrake
+55 info trying registry request attempt 1 at 10:31:33
+56 http PUT https://registry.npmjs.org/winston-airbrake
+57 http 403 https://registry.npmjs.org/winston-airbrake
+58 verbose headers { date: 'Fri, 12 Dec 2014 18:31:33 GMT',
+58 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+58 verbose headers   'content-type': 'application/json',
+58 verbose headers   'cache-control': 'max-age=60',
+58 verbose headers   'content-length': '6125',
+58 verbose headers   'accept-ranges': 'bytes',
+58 verbose headers   via: '1.1 varnish',
+58 verbose headers   'x-served-by': 'cache-lax1430-LAX',
+58 verbose headers   'x-cache': 'MISS',
+58 verbose headers   'x-cache-hits': '0',
+58 verbose headers   'x-timer': 'S1418409093.574400,VS0,VE48',
+58 verbose headers   'keep-alive': 'timeout=10, max=50',
+58 verbose headers   connection: 'Keep-Alive' }
+59 error publish Failed PUT 403
+60 error Error: forbidden cannot modify pre-existing version: 0.0.2
+60 error old={"name":"winston-airbrake","version":"0.0.2","description":"An airbrake transport for winston, inspired by the winston-graylog2 transport, powered by node-airbrake.","main":"./lib/winston-airbrake","scripts":{"test":"vows test/*-test.js --spec"},"repository":{"type":"git","url":"http://github.com/shakefon/winston-airbrake.git"},"keywords":["logging","sysadmin","tools","winston","airbrake"],"author":{"name":"Dave Stevens http://davestevens.us"},"license":"BSD","dependencies":{"airbrake":"~0.2.9"},"devDependencies":{"winston":"~0.6.2","vows":"~0.6.4"},"readme":"winston-airbrake\u000a================\u000a\u000aAn [airbrake][2] transport for [winston][0]. Inspired by [winston-graylog2][1] transport and powered by [node-airbrake][3].\u000a\u000a## Installation\u000aTested on node-0.8.x, requires npm.\u000a\u000a``` sh\u000a  $ npm install winston\u000a  $ npm install winston-airbrake\u000a```\u000a\u000a## Usage\u000a``` js\u000a  var winston = require('winston');\u000a  winston.add(require('winston-airbrake').Airbrake, options);\u000a\u000a```\u000a\u000aOptions:\u000a\u000a* __level:__ Level of messages this transport should log. (default: info)\u000a* __silent:__ Boolean flag indicating whether to suppress output. (default: false)\u000a\u000a* __apiKey:__ Valid Airbrake API Key (required)\u000a* __host:__ Your host, to be displayed in Airbrake. (default: require('os').hostname())\u000a\u000a## Extended example of usage\u000a``` js\u000a  var winston = require('winston');\u000a  var Airbrake = require('winston-airbrake').Airbrake;\u000a  var http = require('http');\u000a\u000a  var options = {\u000a    \"apiKey\":\"YOUR_API_KEY\",\u000a    \"host\":\"YOUR_DOMAIN\"\u000a  };\u000a  winston.add(Airbrake, options);\u000a\u000a  http.createServer(function(req, res) {\u000a    if (req.url === '/' && req.headers['X-Secret'] !== 'my secret') {\u000a      res.writeHead(403);\u000a      res.end('403 - Permission denied');\u000a\u000a      winston.log('info', '403 - Permission denied');\u000a\u000a    } else if (req.url === '/breakstuff') {\u000a      res.writeHead(500);\u000a      res.end('500 - Internal Server Error');\u000a    \u000a      winston.log('error', '500 - Internal Server Error');\u000a    }\u000a  }).listen(24755);\u000a```\u000a\u000a[0]: https://github.com/flatiron/winston\u000a[1]: https://github.com/flite/winston-graylog2\u000a[2]: https://airbrake.io\u000a[3]: https://github.com/felixge/node-airbrake\u000a","_id":"winston-airbrake@0.0.2","dist":{"shasum":"d7cd7f51d1bd183cb6a4b89b3740d84e567bea1b","tarball":"http://registry.npmjs.org/winston-airbrake/-/winston-airbrake-0.0.2.tgz"},"maintainers":[{"name":"shakefon","email":"davestevens84@gmail.com"}]}
+60 error new={"name":"winston-airbrake","version":"0.0.2","description":"An airbrake transport for winston, inspired by the winston-graylog2 transport, powered by node-airbrake.","main":"./lib/winston-airbrake","scripts":{"test":"vows test/*-test.js --spec"},"repository":{"type":"git","url":"http://github.com/shakefon/winston-airbrake.git"},"keywords":["logging","sysadmin","tools","winston","airbrake"],"author":{"name":"Dave Stevens http://davestevens.us"},"license":"BSD","dependencies":{"airbrake":"~0.2.9"},"devDependencies":{"winston":"~0.6.2","vows":"~0.6.4"},"readme":"winston-airbrake\u000a================\u000a\u000aAn [airbrake][2] transport for [winston][0]. Inspired by [winston-graylog2][1] transport and powered by [node-airbrake][3].\u000a\u000a## Installation\u000aTested on node-0.8.x, requires npm.\u000a\u000a``` sh\u000a  $ npm install winston\u000a  $ npm install winston-airbrake\u000a```\u000a\u000a## Usage\u000a``` js\u000a  var winston = require('winston');\u000a  winston.add(require('winston-airbrake').Airbrake, options);\u000a\u000a```\u000a\u000aOptions:\u000a\u000a* __level:__ Level of messages this transport should log. (default: info)\u000a* __silent:__ Boolean flag indicating whether to suppress output. (default: false)\u000a\u000a* __apiKey:__ Valid Airbrake API Key (required)\u000a* __host:__ Your host, to be displayed in Airbrake. (default: require('os').hostname())\u000a\u000a## Extended example of usage\u000a``` js\u000a  var winston = require('winston');\u000a  var Airbrake = require('winston-airbrake').Airbrake;\u000a  var http = require('http');\u000a\u000a  var options = {\u000a    \"apiKey\":\"YOUR_API_KEY\",\u000a    \"host\":\"YOUR_DOMAIN\"\u000a  };\u000a  winston.add(Airbrake, options);\u000a\u000a  http.createServer(function(req, res) {\u000a    if (req.url === '/' && req.headers['X-Secret'] !== 'my secret') {\u000a      res.writeHead(403);\u000a      res.end('403 - Permission denied');\u000a\u000a      winston.log('info', '403 - Permission denied');\u000a\u000a    } else if (req.url === '/breakstuff') {\u000a      res.writeHead(500);\u000a      res.end('500 - Internal Server Error');\u000a    \u000a      winston.log('error', '500 - Internal Server Error');\u000a    }\u000a  }).listen(24755);\u000a```\u000a\u000a[0]: https://github.com/flatiron/winston\u000a[1]: https://github.com/flite/winston-graylog2\u000a[2]: https://airbrake.io\u000a[3]: https://github.com/felixge/node-airbrake\u000a","_id":"winston-airbrake@0.0.2","dist":{"shasum":"d7cd7f51d1bd183cb6a4b89b3740d84e567bea1b","tarball":"http://registry.npmjs.org/winston-airbrake/-/winston-airbrake-0.0.2.tgz"},"maintainers":[{"name":"shakefon","email":"davestevens84@gmail.com"}],"_shasum":"d7cd7f51d1bd183cb6a4b89b3740d84e567bea1b","_from":"winston-airbrake@","_resolved":"https://registry.npmjs.org/winston-airbrake/-/winston-airbrake-0.0.2.tgz","_npmVersion":"1.4.28","_npmUser":{"name":"shakefon","email":"davestevens84@gmail.com"}}: winston-airbrake
+60 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+60 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+60 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:236:22)
+60 error     at Request.emit (events.js:98:17)
+60 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+60 error     at Request.emit (events.js:117:20)
+60 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+60 error     at IncomingMessage.emit (events.js:117:20)
+60 error     at _stream_readable.js:943:16
+60 error     at process._tickCallback (node.js:419:13)
+61 error If you need help, you may report this *entire* log,
+61 error including the npm and node versions, at:
+61 error     <http://github.com/npm/npm/issues>
+62 error System Darwin 13.2.0
+63 error command "node" "/usr/local/bin/npm" "publish" "winston-airbrake"
+64 error cwd /Users/dave/workspace/winston-airbrake
+65 error node -v v0.10.33
+66 error npm -v 1.4.28
+67 verbose exit [ 1, true ]

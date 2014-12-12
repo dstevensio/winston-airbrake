@@ -1,6 +1,6 @@
 {
   "name": "winston-airbrake",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An airbrake transport for winston, inspired by the winston-graylog2 transport, powered by node-airbrake.",
   "main": "./lib/winston-airbrake",
   "scripts": {
