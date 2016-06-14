@@ -24,7 +24,7 @@ Options:
 * __silent:__ Boolean flag indicating whether to suppress output. (default: false)
 
 * __apiKey:__ Valid Airbrake API Key (required)
-* __serviceHost:__ Your host, to be displayed in Airbrake. (default: require('os').hostname())
+* __host:__ Your host, to be displayed in Airbrake. (default: require('os').hostname())
 
 ## Extended example of usage
 ``` js
@@ -34,7 +34,7 @@ Options:
 
   var options = {
     "apiKey":"YOUR_API_KEY",
-    "serviceHost":"YOUR_DOMAIN"
+    "host":"YOUR_DOMAIN"
   };
   winston.add(Airbrake, options);
 
