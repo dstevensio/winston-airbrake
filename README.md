@@ -25,6 +25,7 @@ Options:
 
 * __apiKey:__ Valid Airbrake API Key (required)
 * __host:__ Your host, to be displayed in Airbrake. (default: require('os').hostname())
+* __env:__ Environment, to be displayed in Airbrake. (default: production)
 
 ## Extended example of usage
 ``` js
