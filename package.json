@@ -20,7 +20,7 @@
   "author": "Dave Stevens http://davestevens.us",
   "license": "BSD",
   "dependencies": {
-    "airbrake": "~0.4.1"
+    "airbrake": "~1.2"
   },
   "devDependencies": {
     "winston": "^0.9.0",
