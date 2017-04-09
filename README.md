@@ -24,7 +24,7 @@ Options:
 * __silent:__ Boolean flag indicating whether to suppress output. (default: false)
 
 * __apiKey:__ Valid Airbrake API Key (required)
-* __host:__ Your host, to be displayed in Airbrake. (default: require('os').hostname())
+* __projectId:__ Valid Airbrake Project ID (required)
 * __env:__ Environment, to be displayed in Airbrake. (default: production)
 
 ## Extended example of usage
@@ -35,7 +35,7 @@ Options:
 
   var options = {
     "apiKey":"YOUR_API_KEY",
-    "host":"YOUR_DOMAIN"
+    "projectId":"YOUR_AIRBRAKE_PROJECT_ID",
   };
   winston.add(Airbrake, options);
 
